@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Muslimah Indonesia Link Bio</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+color:white;
+text-align:center;
+overflow:hidden;
+background:black;
+}
+
+/* Bintang bergerak */
+.stars{
+position:fixed;
+width:100%;
+height:100%;
+background:transparent url("https://www.transparenttextures.com/patterns/stardust.png") repeat;
+animation:moveStars 60s linear infinite;
+}
+
+@keyframes moveStars{
+from{background-position:0 0;}
+to{background-position:10000px 5000px;}
+}
+
+.container{
+position:relative;
+z-index:2;
+width:320px;
+margin:100px auto;
+padding:20px;
+background:rgba(0,0,0,0.6);
+border-radius:15px;
+box-shadow:0 0 20px #00f0ff;
+animation:fadeIn 2s;
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(40px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+img{
+width:120px;
+border-radius:50%;
+border:3px solid #00f0ff;
+margin-bottom:10px;
+}
+
+/* Teks neon */
+h2{
+color:#00f0ff;
+text-shadow:0 0 10px #00f0ff,0 0 20px #00f0ff;
+}
+
+/* Tombol neon */
+.link{
+display:block;
+margin:12px;
+padding:14px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+color:white;
+border:2px solid #00f0ff;
+
+transition:0.3s;
+}
+
+.link:hover{
+background:#00f0ff;
+color:black;
+box-shadow:0 0 20px #00f0ff;
+transform:scale(1.08);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="container">
+
+<img src="c:\Users\First USER\Downloads\Belajar Coding\Vyna Sylviana.jpg">
+
+<h2>Queen Of Angel</h2>
+<p>Vyna Sylviana</p>
+
+<a class="link" href="https://instagram.com/vynsy22">Instagram</a>
+<a class="link" href="https://www.tiktok.com/@vyns406?_r=1&_t=ZS-9ANpDKHsf3N">TikTok</a>
+<a class="link" href="https://drive.google.com/drive/folders/1jq2veWxqnZGkFyf5CbE1yiFefYDOGQhT?usp=drive_link">My File</a>
+<a class="link" href="c:\Users\First USER\Downloads\Video Musik\Ibadow & Ibadowa - For the rest of my life (Official Video Cover Maher Zain) - Ibadow (720p).mp4">My Music</a>
+
+</div>
+
+</body>
+</html>
